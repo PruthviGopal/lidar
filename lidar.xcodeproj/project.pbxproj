@@ -1,0 +1,185 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		370E3F6816F5EDDB006560A1 /* lasgrid1.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = lasgrid1.py; sourceTree = "<group>"; };
+		370E3F6916F67256006560A1 /* las_interpolate.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = las_interpolate.py; sourceTree = "<group>"; };
+		370E3F6C16F79F11006560A1 /* las_hist.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = las_hist.py; sourceTree = "<group>"; };
+		3732CB73170089CB00704951 /* las_mapper.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = las_mapper.py; sourceTree = "<group>"; };
+		3732CB74170091C000704951 /* las_reducer.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = las_reducer.py; sourceTree = "<group>"; };
+		3732CB751700C99600704951 /* las_mapper2.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = las_mapper2.py; sourceTree = "<group>"; };
+		3735F37816F4D1820069F76A /* lasdump.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = lasdump.py; sourceTree = "<group>"; };
+		3735F37916F4D1D90069F76A /* lasgrid2.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = lasgrid2.py; sourceTree = "<group>"; };
+		3737BC3416F9F9A500E1762A /* grid_test.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = grid_test.py; sourceTree = "<group>"; };
+		374C332C16F35A14000BDA33 /* grass_import_dem.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = grass_import_dem.py; sourceTree = "<group>"; };
+		37AC407616FA8AA200809953 /* las_gdal_grid.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = las_gdal_grid.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		374C331E16F35951000BDA33 = {
+			isa = PBXGroup;
+			children = (
+				3732CB751700C99600704951 /* las_mapper2.py */,
+				3732CB74170091C000704951 /* las_reducer.py */,
+				3732CB73170089CB00704951 /* las_mapper.py */,
+				37AC407616FA8AA200809953 /* las_gdal_grid.py */,
+				3737BC3416F9F9A500E1762A /* grid_test.py */,
+				370E3F6C16F79F11006560A1 /* las_hist.py */,
+				370E3F6916F67256006560A1 /* las_interpolate.py */,
+				370E3F6816F5EDDB006560A1 /* lasgrid1.py */,
+				3735F37916F4D1D90069F76A /* lasgrid2.py */,
+				3735F37816F4D1820069F76A /* lasdump.py */,
+				374C332C16F35A14000BDA33 /* grass_import_dem.py */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		374C332316F35951000BDA33 /* lidar */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 374C332616F35951000BDA33 /* Build configuration list for PBXLegacyTarget "lidar" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/python;
+			dependencies = (
+			);
+			name = lidar;
+			passBuildSettingsInEnvironment = 1;
+			productName = LidarProcessing;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		374C331F16F35951000BDA33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Dan Pickard";
+			};
+			buildConfigurationList = 374C332216F35951000BDA33 /* Build configuration list for PBXProject "lidar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 374C331E16F35951000BDA33;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				374C332316F35951000BDA33 /* lidar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		374C332416F35951000BDA33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		374C332516F35951000BDA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		374C332716F35951000BDA33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = lidar;
+			};
+			name = Debug;
+		};
+		374C332816F35951000BDA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = lidar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		374C332216F35951000BDA33 /* Build configuration list for PBXProject "lidar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				374C332416F35951000BDA33 /* Debug */,
+				374C332516F35951000BDA33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		374C332616F35951000BDA33 /* Build configuration list for PBXLegacyTarget "lidar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				374C332716F35951000BDA33 /* Debug */,
+				374C332816F35951000BDA33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 374C331F16F35951000BDA33 /* Project object */;
+}
